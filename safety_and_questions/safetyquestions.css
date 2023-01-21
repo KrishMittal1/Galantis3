@@ -1,3 +1,207 @@
-body {
-    background-color: black;
+li {
+    list-style: none;
+}
+
+
+/*Schedule cards*/
+
+.card {
+    background: rgb(29, 119, 159);
+    border-radius: 30px;
+    width: 80%;
+    font-family: 'Kanit', sans-serif;
+}
+
+#contact {
+    text-align: center;
+    padding: 5%;
+    padding-top: 5%;
+    color: var(--blue1);
+    background: var(--cream);
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact h4 {
+    font-weight: normal;
+}
+
+#contact h1 {
+    font-size: 45px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bolder;
+    background: -webkit-linear-gradient(var(--blue1), #126eb3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 0.5%;
+}
+
+
+/*CONTACT*/
+
+#contactDescript,
+#mottoD {
+    text-align: center;
+    color: var(--cream);
+    background: url("media/placeholder.png");
+}
+
+#contactDescript h1,
+#mottoD h1 {
+    font-size: 65px;
+}
+
+#contactDescript div,
+#mottoD div {
+    padding: 8% 5%;
+    background: rgba(102, 102, 102, 0.8);
+}
+
+#contactBanner {
+    position: relative;
+    padding-top: 5%;
+    width: 100%;
+    height: 160vh;
+    background: #fff;
+    background-size: cover;
+}
+
+#contactBanner .threetoTwoGrid div {
+    padding: 5% 5%;
+}
+
+#contactHeader {
+    padding: 5%;
+    padding-bottom: 0;
+}
+
+#contactHeader h1 {
+    font-size: 95px;
+}
+
+#contactHeader h3 {
+    font-size: 25px;
+}
+
+#contactCD p {
+    font-size: 22px;
+    line-height: 25px;
+    padding: 5%;
+}
+
+#trioContactInfo {
+    background: var(--blue1);
+}
+
+#trioContactInfo .autoThirdGrid {
+    grid-column-gap: 5%;
+}
+
+#trioContactInfo .autoThirdGrid div {
+    background-color: var(--cream);
+    color: var(--blue1);
+}
+
+#trioContactInfo p {
+    font-size: 20px;
+}
+
+#trioContactInfo h1 {
+    font-size: 30px;
+    padding: 8%;
+    padding-bottom: 0%;
+}
+
+#trioContactInfo .abutton {
+    background: var(--blue1);
+    color: #fff;
+    margin: 5% auto;
+    border: none;
+}
+
+#contactContainer .contact {
+    padding: 5%;
+    margin: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3%;
+    text-align: left;
+}
+
+.wrapper {
+    box-shadow: 0px 5px 20px 5px var(--green1);
+}
+
+.contact-info {
+    background: var(--green1);
+}
+
+.contact-info h3,
+.contact-info ul {
+    text-align: center;
+    margin: 0 0 1rem 0;
+    color: var(--cream);
+}
+
+.contact {
+    background: var(--orange1);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.contact form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    color: var(--cream);
+}
+
+.contact form label {
+    display: block;
+    text-align: left;
+}
+
+.contact form p {
+    margin: 0;
+}
+
+.contact form .full {
+    grid-column: 1 / 3;
+}
+
+.contact form button,
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 1em;
+    border: solid 1px var(--cream);
+    border-radius: 4px;
+}
+
+.contact form textarea {
+    resize: none;
+}
+
+.contact form button {
+    background: var(--green1);
+    border: 0;
+    color: var(--cream);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.contact form button:hover,
+.contact form button:focus {
+    background: var(--orange1);
+    color: var(--cream);
+    outline: 0;
+    transition: background-color 2s ease-out;
 }

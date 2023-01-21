@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Safety</title>
+    <title>Frequently Asked Questions</title>
     <link rel="icon" href="../media/favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
@@ -12,9 +12,11 @@
     <link rel="stylesheet" href="../styles.css" />
     <link rel="stylesheet" href="safetyquestions.css" />
     <link rel="stylesheet" href="../css/mediaquery.css" />
+    <link rel="stylesheet" href="../css/stars.css" />
+    <link rel="stylesheet" href="../css/nav.css" />
 
     <!--Scripts-->
-    <!--    <script src="../scripts.js"></script>-->
+    <script src="../scripts.js"></script>
 
     <!--Crap-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -27,34 +29,111 @@
 </head>
 
 <body>
-    <!--Navbar-->
-    <div class="tw-daisy-navbar tw-bg-secondary">
-        <div class="tw-daisy-navbar-start">
-            <div class="tw-daisy-dropdown">
-                <label tabindex="0" class="tw-daisy-btn tw-daisy-btn-ghost tw-daisy-btn-circle tw-text-primary tw-fill-current hover:tw-text-accent-content tw-delay-75 tw-duration-1000">
-              <svg xmlns="http://www.w3.org/2000/svg" class="tw-h-5 tw-w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
-            </label>
-                <ul tabindex="0" class="tw-daisy-menu tw-daisy-menu-compact tw-daisy-dropdown-content tw-mt-3 tw-p-2 tw-daisy-shadow tw-rounded-box tw-w-52 tw-bg-secondary tw-text-secondary-content">
-                    <li class="hover:tw-text-primary-content tw-delay-75 tw-duration-1000"><a href="index.html">Home</a></li>
-                    <li class="hover:tw-text-primary-content tw-delay-75 tw-duration-1000"><a href="./vehicles.html">Vehicles</a></li>
-                    <li class="hover:tw-text-primary-content tw-delay-75 tw-duration-1000 "><a href="./plantrip.html">Plan Your Trip</a></li>
-                    <li class="hover:tw-text-primary-content tw-delay-75 tw-duration-1000"><a href="./safety.html">Safety</a></li>
-                    <li class="hover:tw-text-primary-content tw-delay-75 tw-duration-1000"><a href="./launchandrecovery.html">Launch & Recovery</a></li>
-                    <li class="hover:tw-text-primary-content tw-delay-75 tw-duration-1000"><a href="./CTE.html">CTE</a></li>
-                    <li class="hover:tw-text-primary-content tw-delay-75 tw-duration-1000"><a href="./CVTSA.html">CVTSA</a></li>
-                    <li class="hover:tw-text-primary-content tw-delay-75 tw-duration-1000"><a href="./about.html">About</a></li>
-                </ul>
+    <header id="nav">
+        <a href="#" class="logo"><img src="../media/FYF.png" style="width:50px; height:50px;"></a>
+        <ul>
+            <li><a href="../pages/mission.html">Mission</a></li>
+            <li><a href="../pages/vehicles.html">Vehicles</a></li>
+            <li><a href="../pages/booking.html">Booking</a></li>
+            <li><a href="../pages/training.html">Training</a></li>
+            <li><a href="../safety_and_questions/safety.html">Safety</a></li>
+            <li><a href="../pages/launch.html">Launch</a></li>
+            <li>|</li>
+            <li><a href="../index.html">Design Brief</a></li>
+            <li><a href="../cte.html">CTE</a></li>
+            <li><a href="../cvtsa.html">CV TSA</a></li>
+            <li><a href="../about.html">About</a></li>
+        </ul>
+    </header>
+    <div class="topnav" id="myTopnav">
+        <a href="../index.html" class="active"><img src="../media/FYF.png"></a>
+        <a href="pages/mission.html">Mission</a>
+        <a href="pages/vehicles.html">Vehicles</a>
+        <a href="pages/booking.html">Booking</a>
+        <a href="pages/training.html">Training</a>
+        <a href="pages/safety.html">Safety</a>
+        <a href="pages/launch.html">Launch</a>
+        <a href="pages/contact.html">Contact</a>
+        <a href="index.html">Design Brief</a>
+        <a href="cte.html">CTE</a>
+        <a href="cvtsa.html">CV TSA</a>
+        <a href="about.html">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="navs()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <!--Safety-->
+    <!--FAQS-->
+    <div id="AM8" class="" style="margin: auto; padding: 1%;">
+        <h1 style=" margin-top: 8%; margin-left: 27%; margin-bottom: 2%; ">Frequently Asked Questions</h1>
+        <div id="faqs1" class="card hvr-grow-shadow" style="margin-left: 10%; margin-bottom: 1%;" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <div class="card-body">
+                <h5 style="text-align: center;" class="event-title">Why Space Travel?</h5>
+            </div>
+            <div class="collapse" id="collapseExample4">
+                <div class="card card-body" style="margin:auto">
+                    Space Travel is a fascinating, as there are other worlds and other attributes to our universe that are undiscoverable on Earth. Our goal is to invite you on a once in a lifetime experience to witness a miracle outside of your comfort zone.On this trip
+                    you will see space
+                </div>
             </div>
         </div>
-        <div class="tw-daisy-navbar-center">
-            <a href="./index.html" class="tw-daisy-btn tw-daisy-btn-ghost tw-text-3xl tw-text-secondary-content hover:tw-text-accent-content tw-delay-75 tw-duration-1000">Galantis</a>
+        <div id="faqs1" class="card hvr-grow-shadow" style="margin-left: 10%; margin-bottom: 1%;" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <div class="card-body">
+                <h5 style="text-align: center;" class="event-title">What are the trips that people will take? </h5>
+            </div>
+            <div class="collapse" id="collapseExample1">
+                <div class="card card-body" style="margin:auto">
+                    As a new space travel agency, we are only focused on moon, mars, and orbit of earth trips. We are planning to expand in the next 10 years, but currently our services are limited to three different trips.
+                </div>
+            </div>
         </div>
-        <div class=" tw-daisy-navbar-end">
-            <button class="tw-daisy-btn tw-daisy-btn-ghost tw-daisy-btn-circle">
-          </button>
+        <div id="faqs1" class="card hvr-grow-shadow" style="margin-left: 10%; margin-bottom: 1%;" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <div class="card-body">
+                <h5 style="text-align: center;" class="event-title">In preparation of the travel, how do you prepare the tourists?</h5>
+            </div>
+            <div class="collapse" id="collapseExample2">
+                <div class="card card-body" style="margin:auto">
+                    As space traveling is fairly new and complicated, training is provided to the trainees. This includes zero gravity training, and training in tight spaces to easily adapt to the travel. This training isfairly safe, but will require you to sign waivers
+                    to partake in.
+                </div>
+            </div>
         </div>
+        <div id="faqs1" class="card hvr-grow-shadow" style="margin-left: 10%; margin-bottom: 1%;" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <div class="card-body">
+                <h5 style="text-align: center;" class="event-title">How many people can sign up for one trip?</h5>
+            </div>
+            <div class="collapse" id="collapseExample3">
+                <div class="card card-body" style="margin:auto">
+                    As a new space travel space agency, we are only allowing groups of three to sign up at one time. The waiting process takes 1-2 months to accept a group. We take four groups at a time for both the trip and the training. We do train a fifth group just in
+                    case one group decides to drop out.
+                </div>
+            </div>
+        </div>
+
+        <div id="faqs1" class="card hvr-grow-shadow" style="margin-left: 10%; margin-bottom: 1%;" data-bs-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <div class="card-body">
+                <h5 style="text-align: center;" class="event-title">Approximately, how long is one trip?</h5>
+            </div>
+            <div class="collapse" id="collapseExample5">
+                <div class="card card-body" style="margin:auto">
+                    Barring any complications, the trip should take 5 days with a 1 day launch and recovery time. This is to ensure the safety of all of the passengers and crew members within the vehicle. The trip will ensure that everyone's health is monitored, and will
+                    alert the whole vehicle if anything is out of the ordinary?
+                </div>
+            </div>
+        </div>
+        <div id="faqs1" class="card hvr-grow-shadow" style="margin-left: 10%; margin-bottom: 1%;" data-bs-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <div class="card-body">
+                <h5 style="text-align: center;" class="event-title">Will I enjoy the trip?</h5>
+            </div>
+            <div class="collapse" id="collapseExample6">
+                <div class="card card-body" style="margin:auto">
+                    We can't speak for everyone, but we have recieved great feedback from the tourists that have already travelled with us. We have recieved feedback that we have used to improve the trip, as we are adapting to the complications we have already dealt with.
+                    Overall, the trip is for travel enthusiasts that are looking to do something out of the ordinary. If this sounds like you, we would love for you to hop aboard!
+                </div>
+            </div>
+        </div>
+
     </div>
-    <!--Content-->
     <!--Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
